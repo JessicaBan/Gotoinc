@@ -7,20 +7,25 @@
 
 def encrypt(text, n)
 	if text.to_s.empty?
-		puts "значение входящей строки"
+		puts "значение входящей строки первого метода"
 	end
-	# elsif n <= 0
-	# 	puts "значение ВХОДНОЙ строки"
-	# end
+	if n <= 0
+		puts "значение ВХОДНОЙ строки первого метода"
+	end
 end
 
-	encrypt('wqrtwe', 0)
+encrypt('', -1)
 
 # def decrypt(encrypyed_text, n)
-	
+# 	if encrypyed_text.to_s.empty?
+# 		puts "значение входящей строки второго метода"
+# 	end
+# 	if n <= 0
+# 		puts "значение ВХОДНОЙ строки второго метода"
+# 	end
 # end
 
-
+# decrypt('', 0)
 
 
 
